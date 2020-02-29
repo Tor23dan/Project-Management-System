@@ -1,0 +1,59 @@
+<!--This is for the Usersetuppage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "User Setup Page"></div>  <!--This identifies the page as the admin page--->
+        
+        <%- include('layouts/navbar');-%> <!--This calls the navbarhome.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        <section class = site-body>
+        <hr/>
+        <br/>
+        <h2>Current User Setup Under Construction</h2>
+        <br/>
+        <h3>This page will give information about the project application</h3>
+        <br/>
+        <h4>Application Information to follow:</h4>
+        <br/>
+        <hr/>
+        <!--UserSubmit form-->
+        <br>
+        <h2>User Submit</h2>
+        <br>
+        <form action="/userSetup/store" method="POST">      <!---This will create a special page for storing user details-->
+        <div class="site-user-setup">
+            <label>User Name:</label>
+            <br>
+            <input type="text" placeholder="Please enter username" id="username" name="username">
+            <br>
+            <label>Password:</label>
+            <br>
+            <input type="password" placeholder="Please enter password" id="password" name="password">
+            <br>
+            <br>
+            <label>Account Type:</label>
+            <input list="accounttype" type="text" placeholder="Please enter account type" name="accounttype">
+            <datalist id="accounttype">
+                <option value="Administrator"></option>
+                <option value="Lecturer"></option>
+                <option value="Student"></option>
+            </datalist>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="usersetup-btn">User-Setup</button>
+            <br>
+            <br>
+        </div>
+        </form>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>
