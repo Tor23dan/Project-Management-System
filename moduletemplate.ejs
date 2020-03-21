@@ -1,0 +1,34 @@
+<!--This is for the ModuleTemplatepage View-->
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "Module Template Page"></div>  <!--This identifies the page as the module records page--->
+
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+        <section class = site-body-moduletemplate>
+        <hr/>
+        <br/>
+        <h2>Current ModuleTemplatepage Under Construction</h2>
+        <br/>
+        <h3>This page will give information about how the project application works</h3>
+        <br/>
+        <br/>
+        <hr/>
+        <!--Template form-->
+        <br>
+        <h2>Module Template for Editing:</h2>
+        <br>
+        <form action="/download" method="GET">
+        <div class="site-template">
+            <label>Module Specification Template</label>
+            <br>
+            <button type="submit" class="template-btn"><b>Download Module Specification Template</b></button>
+        </div>
+        </form>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>

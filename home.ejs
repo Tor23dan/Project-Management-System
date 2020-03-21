@@ -1,0 +1,26 @@
+<!--This is for the Homepage View-->
+<!DOCTYPE html>
+<html lang="en">
+    <body >
+        <title>Homepage</title>
+        <div id = "Home Page"></div>  <!--This identifies the page as the home page--->
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+        <section class = site-body-home>
+        <hr/>
+        <br/>
+        <h2>Welcome to the University Module Document Management System</h2>
+        <br/>
+        <h3>Introduction to the University Module Document Management System</h3>
+        <h3>This is my project web application that has been designed and created for Administrators, Lecturers and Students.</h3> 
+        <h3>The project is for improving the management of documentation. It is conducted by administrators for refinement by lecturers to be given to students, for the modules of their course 
+        that they are studying.</h3>
+        <br/>
+        <h4>For more information about the application vist the about the application page for more details:</h4>
+        <br/>
+        <hr/>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+    </body>
+</html>
