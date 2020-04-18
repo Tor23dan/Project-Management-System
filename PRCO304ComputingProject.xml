@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Template_menu.xsl"?>
+<module_menu>
+<spec>
+<Code>PRCO304</Code>
+<Name>Computing Module</Name>
+<Credit>40</Credit>
+<Title>Computing Project</Title>
+<Submission>100% Coursework Submission</Submission>
+<Leader>Liz Stuart</Leader>
+<Tutor>Shirley Atkinson, Nathan Clarke, Steven Furnell, Swen Gaudl, Bogdan Ghita, James Hayter, Vasilios Kelefouras, Kevin Jones, Dan Livingstone, Marco Palomino, Lingfen Sun, Kimberly Tam, Marius Vargas, David Walker, Paul Watson, Thomas Wennekers</Tutor>
+<Aims>This module aims to enable the student to undertake an individual project on an approved topic interest, that addresses a significant computing related problem relevant to the programme of study. To provide an opportunity for the student to integrate many of the threads of their pprogramme of study.</Aims>
+<Outcomes>
+          1. Demonstrate an investigative commponent to the project showing consolidation and development of knowledge and understanding relevant to their programme of study.
+          2. Produce an approved deliverable appropriate to the programme of study that addresses a significant computing related problem.
+          3. Manage the project effectively by demonstrating the application of project management skills.
+          4. Identify and take due consideration of the legal, social, ethical and professional issues that are appropriate to the project. 
+          5. Communicate effectively all aspects of the project deliverables including the theoretical and methodological framework. 
+</Outcomes>
+<Overview>PRCO304, the Computing Project is a Semester 2, 40 credit, final year module where your address a significant problem and apply technology to solve it. This is the culmination of your degree, the opportunity to demonstrate everything you have learned to date. Students are expected to complete approximately 400 hours of work for the project (approximately 30 hours per week) throughout the duration of the second semester.
+This module is twice the credits of any other module you have studied to date. It is not just a technical module, but is also academic. You will need to write in good academic style, you will need to consider the wider picture than just the technology you are using and you will need to deliver a good end result.
+The project management methodology required for this project is Agile. The Agile methodology requires you to begin with a project set up. I have created a form for you to complete on the DLE. It requires you to submit (i) a project vision, (ii) a set of keywords which represent the breadth of your proposal, (iii) a text-based risk management plan and (iv) a short list of suggested supervisors. Once you have submitted this data, I will be able to allocate your supervisor to you.
+After you have been allocated your supervisor, you should develop your project backlog and plan how you carry out your spirits, in preperation for the beginning of Semester 2.
+When the second semester begins, you will be expected to plan your sprints; these should be 2 weeks long. You are also expected to attend group based meetings with your supervisor. Initially, these will be weekly, then every fortnight. Each sprint must be planned: you must determine what tasks will be implemented from the project backlog and reviewed. A core aspect of Agile development is that a minimum viable product should be demostrated/released at the end of every sprint. Further details are below.
+To pass this module you must achieve an overall grade of 40% for your work.
+</Overview>
+<Delivery>
+The module is assessed as 100% coursework. The coursework is a portfolio that you build up over the duration of the semester. It will comprise interim deliverables as well as a final set of deliverables. The final submission will combine your work to date, your techinical solution, your writing, your project management, your showcase participation and a project demonstration - where you show your work to two examiners.
+Delivery format: Small group meetings with your allocated supervisor.
+These will be held weekly with your supervisor in Weeks 27-30.
+Thereafter, the meetings will be held every fortnight in Weeks 31,33, 35, 39 and 41.
+Note that week 36,37 and 38 are the Easter holidays.
+Group based project meetings will be booked by your allocated supervisor. Note that meeting times and days may vary during the Semester.
+Duration: 13 weeks
+Delivery Staff: You will be alloacted to a supervisor following the submission of your project proposal. You are expected to be in contact with your supervisor throughout. Please note the module leader is there as a last resort. You will be allocated a second supervisor/marker who will be present at your project demonstration.
+</Delivery>
+<Project>
+3.1 Project Set up
+Prior to the project beginning you must submit the following information via the PROJECT SET UP form on DLE. To complete the form you need to provide each of the following:
+Project vision. What is your project about? Why are you doing the project? Spend approximately 500 words describing to your potential supervisor what you intend to do. Focus on the problem being solved, not the technology you intend to use to solve it.
+Keywords. These keywords must represent the essence of your project. They will be used to allocate you to a supervisor who is most relevant.
+Suggested supervisor. Please make a suggestion as to who you feel would want to work with. It is not guaranteed that you will be allocated to your suggested supervisor, however I will ensure you will be supported appropriately.
+Risk plan. Consider here the things you think might go wrong with your project. You should consider how likely the risk might be and the impact. Any risk that has a high impact and a high propability MUST be dealt with.
+The deadline for submitting this data is 14th November at 4pm.
+In addition to submitting the information above, you must set up and use industry standard tools for developing and managing a project. This comprises of a private GitHub repository and a Trello board.
+Students can apply for the Student Developer Pack - https://help.github.com/en/articles/applying-for-a-student-developer-pack. You are expected to add your supervisor to your repository and to edit the readme.md file so that your project vision, allocated supervisor and creative common license are clearly shown.
+Students can sign up for Trello here https://trello.com/signup if you don't already have an account. You must set up a Trello account and invite your supervisor. The Trello board link should be clearly displayed on your GitHub readme.md file.
+3.2 Trello Deliverables
+At the start of the semester you are expected to have developed your initial product backlog which should be displayed on the trello board. https://www.scrum.org/resource/what-is-a-product-backlog. Throughout the semester you should be applying kanban principles whereby you have "work in progress" column and a "done" column. As the project progresses you should submit screenshots of your trello board clearly showing what work is in progress, what work has been done and what is left on the backlog.
+For the first four weeks of the semester you are expected to meet in small groups weekly with your supervisor at a time determined by the supervisor. After that, meetings will become take place every fortnight. Your uploaded trello screenshot will provide a basis for your discussions with your supervisor where you will discuss what you have achieved to date, what you are working on now and what barriers you have faced. They will form part of your evidence for your sprint planning and retrospectives.
+These interim deliverables are mandatory. Failure to submit will result in attendance monitoring letters being sent out and probable failure of the project.
+3.3 Showcase Brochure + Poster
+Participation in the final year project showcase event is mandatory. You will present your project to visitors from industry, future project students and members of staff. You will need to produce a good quality poster for the showcase event and your work will be presented in the event brochure.
+3.4 Final Report
+Your report will document your project products and the processes that supported the development. This is a substantial piece of writing that should be drafted, redrafted and worked on over a period of time - not left until the last minute. The word count is expected to be approximately 10,000 words. Further guidance on the report will be provided in a seperate document.
+</Project>
+<Portfolio>
+This coursework requires the delivery of a 'portfolio' of work.
+Your portfolio should comprise
+a set of interim Trello deliverables showing how the sprints were set up and managed.
+a screen shot of your brochure data
+a poster for the Showcase event (pdf format)
+a GitHub repository containing the code
+a final report.
+Students are requested to produce their projects under a creative common license. However, if you are working with a client, or you require commercial sensitivity for your project, then you must discuss an alternative license with your supervisor.
+</Portfolio>
+<Deadlines>
+5 Important Dates/Deadlines
+</Deadlines>
+</spec>
+</module_menu> 
+
+
+
