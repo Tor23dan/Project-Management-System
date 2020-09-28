@@ -1,0 +1,100 @@
+<!--This is for the Usersetuppage View-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id = "User Setup Page"></div>  <!--This identifies the page as the admin page--->
+        
+        <%- include('layouts/navbar');-%> <!--This calls the navbar.ejs page-->
+        <%- include('layouts/header');-%>   <!--This calls the header.ejs page-->
+
+
+
+        <section class = site-body-setup>
+        <br/>
+        <h2>User-Setup</h2>
+        <br/>
+        <p>Please fill in the required details to create a user account for an Administrator, Lecturer or Student below:</p>
+
+        <div id="message">
+            <p><b> Password must match and contain the following:</b></p>
+            <p> A <b>lowercase</b> letter, a <b>capital (uppercase)</b> letter, a <b>number, </b> and a minimum of <b>8 characters</b>  </p>
+
+        </div>
+
+        <!--UserSubmit form-->
+
+        <% if (errors != null && errors.length >0) { %> 
+            <ul class = "list-group">
+            <% for(var i = 0; i < errors.length; i++) { %>
+            <li class="list-group-item"><%=errors[i] %></li>
+            <% } %>
+            </ul>
+            <% } %>
+        
+        <br>
+        <h2>User-Submit</h2>
+        <br>
+        <form action="/userSetup/store" method="POST">      <!---This will create a special page for storing user details-->
+        <div class="site-user-setup">
+            <label>Username:</label>
+            <br>
+            <input type="text" placeholder="Please Enter Username" id="username" name="username" required>
+            <br>
+            <br>
+            <label>Password:</label>
+            <br>
+           <input type="password" placeholder= "Enter Password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> 
+           <br>
+            <label>Confirm Password:</label>
+            <br>
+            <input type="password" placeholder= "Confirm Password" id="confirm_password" name="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> 
+                    
+            <br>
+            <br>            
+            <label>Account Type:</label>
+            <input list="accounttype" type="text" placeholder="Please Enter Account Type" name="accounttype" required>
+            <datalist id="accounttype">
+                <option value="Administrator"></option>
+                <option value="Lecturer"></option>
+                <option value="Student"></option>
+            </datalist>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="usersetup-btn">User-Setup</button>
+            <br>
+            <br>
+
+
+
+        </div>
+        </form>
+        </section>
+        <%- include('layouts/footer');-%>   <!--This calls the footer.ejs page-->
+        </div>
+        <script>
+
+            var password = document.getElementById("password")
+                  , confirm_password = document.getElementById("confirm_password");
+                
+                function validatePassword(){
+                  if(password.value != confirm_password.value) {
+                    confirm_password.setCustomValidity("Passwords Don't Match");
+                  } else {
+                    confirm_password.setCustomValidity('');
+                  }
+                }
+                
+                password.onchange = validatePassword;
+                confirm_password.onkeyup = validatePassword;
+            
+            
+            </script>
+
+
+
+    </body>
+</html>
